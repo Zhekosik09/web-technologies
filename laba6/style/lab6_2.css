@@ -1,0 +1,131 @@
+.wrapper {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    
+}
+
+.menu li {
+    margin-right: 15px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    display: inline-block;
+    background-color: #FF7F50;
+    color: #4B0082;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+main div {
+	width: 1140px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.cards-space {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.card {
+	width: 300px;
+	margin: 50px;
+	padding: 10px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+	flex-direction: column;
+}
+.card1 {
+	border: 5px solid rgb(47, 225, 44);
+	border-radius: 50px;
+}
+.card2 {
+	border: 5px solid rgb(47, 225, 44);
+	border-radius: 50px 0 50px 0;
+}
+.card3 {
+	border: 5px solid rgb(47, 225, 44);
+	border-radius: 50px 150px;
+}
+.card4 {
+	border: 20px solid green;
+	border-radius: 250px / 50px;
+	border-left-color: lightgreen;
+	border-right-color: lightgreen;
+}
+.card5 {
+	border: 20px solid green;
+	border-radius: 250px / 50px;
+	border-left-color: lightgreen;
+	border-right-color: lightgreen;
+}
+.card6 {
+	border: 20px solid green;
+	border-bottom-color: lightgreen;
+	border-top-color: lightgreen;
+	border-right-color: lightgreen;
+	border-bottom-right-radius: 100%;
+}
+.card7 {
+	border-image-slice: 21 19 14 20;
+	border-image-width: 16px 10px 17px 15px;
+	border-image-outset: 33px 18px 27px 24px;
+	border-image-repeat: stretch stretch;
+	border-image-source: url(../image/romb.jpg);
+	border-style: solid;
+}
+.card8 {
+	border-image-slice: 17 17 17 17;
+	border-image-width: 19px 19px 19px 19px;
+	border-image-outset: 26px 18px 27px 24px;
+	border-image-repeat: repeat repeat;
+	border-image-source: url(../image/romb.jpg);
+	border-style: solid;
+}
+.card9 {
+	border-image-slice: 27 28 26 27;
+	border-image-width: 19px 19px 19px 19px;
+	border-image-outset: 23px 18px 27px 24px;
+	border-image-repeat: repeat repeat;
+	border-image-source: url(../image/romb.jpg);
+	border-style: solid;
+}
+.card10 {
+	border: double rgb(255, 8, 0) 16px;
+	border-image: url(../image/photo_2024-05-22_02-12-14.jpg);
+	border-image-slice: 27 100 26 100;
+}
+.card11 {
+	border: double rgb(255, 8, 0) 10px;
+	border-image: url(../image/photo_2024-05-22_02-12-14.jpg) 40 round;
+}
+.card12 {
+	border: double rgb(255, 8, 0) 16px;
+	border-image: url(../image/photo_2024-05-22_02-12-14.jpg) 25 stretch;
+}
